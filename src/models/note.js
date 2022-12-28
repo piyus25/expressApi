@@ -9,7 +9,7 @@ const NoteSchema = mongoose.Schema({
         type:String,
         required:true
     },
-    email:{
+    userId:{
         type:mongoose.Schema.Types.ObjectId,
         ref:"User",
         required:true
